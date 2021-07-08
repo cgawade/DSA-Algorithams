@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="sorting.BubbleSortTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-03T17:15:19" hostname="C02ZJ11RLVCH" time="0.026">
+  <properties/>
+  <testcase name="testSortResult()" classname="sorting.BubbleSortTest" time="0.026"/>
+  <system-out><![CDATA[Before sort = [2, 5, 1, 2, 7, 78, 2, 4]
+After sort = [1, 2, 2, 2, 4, 5, 7, 78]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
