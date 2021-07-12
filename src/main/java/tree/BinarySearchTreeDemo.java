@@ -166,7 +166,7 @@ class BinarySearchTree {
             return 0;
 
         int leftMaxDepth = 1 + maxDepth(root.getLeftChild());
-        int rightMaxDepth = 1+ maxDepth(root.getLeftChild());
+        int rightMaxDepth = 1 + maxDepth(root.getLeftChild());
 
         return Math.max(leftMaxDepth, rightMaxDepth);
     }

@@ -42,7 +42,7 @@ class Queue<T>{
         if (values.size() == 0)
             return null;
 
-        return  values.remove(0);
+        return values.remove(0);
     }
 }
 
