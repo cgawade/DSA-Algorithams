@@ -11,7 +11,7 @@ public class FindAllSubarraySumEqualsK {
         System.out.println(arraySum.values());
 
         //subArraySumV1(arr,k);
-        findSingleSubarray(arr, k);
+        //findSingleSubarray(arr, k);
     }
 
     private static Map<Integer,String> subArraySum(int[] arr, int k) {

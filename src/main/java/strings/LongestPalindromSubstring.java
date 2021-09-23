@@ -17,7 +17,7 @@ public class LongestPalindromSubstring {
             int p1,p2;
             p1=p2=i;
 
-           while (p1 >= 0 && p2 < str.length()-1 && str.charAt(p1) == str.charAt(p2)){
+           while (p1 >= 0 && p2 < str.length() && str.charAt(p1) == str.charAt(p2)){
                p1--;
                p2++;
            }
@@ -30,7 +30,7 @@ public class LongestPalindromSubstring {
             p1=i;
             p2=i+1;
 
-            while (p1 >= 0 && p2 < str.length()-1 && str.charAt(p1) == str.charAt(p2)){
+            while (p1 >= 0 && p2 < str.length() && str.charAt(p1) == str.charAt(p2)){
                 p1--;
                 p2++;
             }

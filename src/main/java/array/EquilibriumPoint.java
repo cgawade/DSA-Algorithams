@@ -27,7 +27,7 @@ elements after it (2+2).
 
 public class EquilibriumPoint {
     public static void main(String[] args) {
-        long arr[]={4, 42, 27, 16, 28, 3, 4, 5, 9, 3, 31, 5, 5, 2,   9, 10, 18, 35, 35, 33, 19, 41, 23, 8, 32, 9, 5, 8, 18, 35, 13, 6, 7, 6, 10, 11, 13, 37, 2, 25, 7, 28, 43};
+        long arr[]={4, 42, 27, 16, 28, 3, 4, 5, 9, 3, 31, 5, 5, 2, 9, 10, 18, 35, 35, 33, 19, 41, 23, 8, 32, 9, 5, 8, 18, 35, 13, 6, 7, 6, 10, 11, 13, 37, 2, 25, 7, 28, 43};
         int point = equilibriumPoint(arr, arr.length);
         System.out.println("Equilibrium point : "+point);
     }

@@ -14,7 +14,7 @@ public class StringParenthesisMatch {
 
     private static boolean checkParenthesis(String str) {
         Stack<Character> stack = new Stack<>();
-        Map<Character, Character> map = new HashMap<>();
+        //Map<Character, Character> map = new HashMap<>();
 
         for (int i = 0; i < str.length(); i++) {
             Character ch = str.charAt(i);

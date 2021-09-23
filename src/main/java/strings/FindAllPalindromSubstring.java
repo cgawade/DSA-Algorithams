@@ -10,7 +10,7 @@ public class FindAllPalindromSubstring {
         for (int i = 0; i < str.length(); i++) {
             for (int j = i; j < str.length(); j++) {
                 boolean palindrom = isPalindrom(str, i, j);
-                if (palindrom) {
+                if (palindrom && (str.substring(i, j+1).length() > 1)) {
                     System.out.println(str.substring(i, j+1));
                 }
             }
